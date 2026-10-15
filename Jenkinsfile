@@ -30,7 +30,7 @@ public class Hello {
         }
         stage('验证') {
             steps {
-                sh 'java -jar hello.jar 世界'
+                sh 'java -jar hello.jar HY-love-sleep'
             }
         }
     }
