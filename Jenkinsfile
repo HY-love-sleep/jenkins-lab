@@ -1,5 +1,7 @@
 pipeline {
     agent any
+    triggers { pollSCM('H/1 * * * *') }
+
     stages {
         stage('证明源码来自 Git') {
             steps {
