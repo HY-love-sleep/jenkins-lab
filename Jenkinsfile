@@ -32,7 +32,7 @@ public class Hello {
         }
         stage('验证') {
             steps {
-                sh 'java -jar hello.jar HY-love-sleep'
+                sh 'java -jar hello.jar hanyang'
             }
         }
     }
